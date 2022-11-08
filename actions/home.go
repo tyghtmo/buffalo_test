@@ -11,3 +11,14 @@ import (
 func HomeHandler(c buffalo.Context) error {
 	return c.Render(http.StatusOK, r.HTML("home/index.plush.html"))
 }
+
+// HomeAbout default implementation.
+func HomeAbout(c buffalo.Context) error {
+	return c.Render(http.StatusOK, r.HTML("home/about.html"))
+}
+
+// HomeContact default implementation.
+func HomeContact(c buffalo.Context) error {
+	return c.Render(http.StatusOK, r.HTML("home/contact.html"))
+}
+
