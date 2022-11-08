@@ -21,4 +21,3 @@ func HomeAbout(c buffalo.Context) error {
 func HomeContact(c buffalo.Context) error {
 	return c.Render(http.StatusOK, r.HTML("home/contact.html"))
 }
-

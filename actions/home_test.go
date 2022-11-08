@@ -16,4 +16,3 @@ func (as *ActionSuite) Test_Home_About() {
 func (as *ActionSuite) Test_Home_Contact() {
 	as.Fail("Not Implemented!")
 }
-
